@@ -19,7 +19,9 @@ Withered Foxy Jumpscare is a playful Chrome extension that gives a **1 in 10,000
 
 1. **Clone or download** this repository to your computer by going to PowerShell or Terminal and copy-pasting this line or by clicking the green "Code" button on the repository home screen and clicking "Download ZIP":
 
+```bash
 "git clone https://github.com/Coded-To-The-Max/foxy-jumpscare-extension.git" or https://github.com/Coded-To-The-Max/foxy-jumpscare-extension if doing the latter
+```
 
 2. Once downloaded, if you downloaded the ZIP, right-click on it and click "Extract All," then open Chrome and go to:
 
@@ -33,10 +35,12 @@ The extension should now be active. Navigate to any website to test.
 
 4. For testing, you can temporarily force the jumpscare by editing content.js:
 
+```javascript
 if (true) {
   jumpscare();
 }
 
+```
 5. For the most consistent result: 
 
 Go to google.com and search for anything. Then, scroll immediately as the page loads to trigger the audio to play.
