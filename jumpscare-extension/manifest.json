@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Withered Foxy Jumpscare",
+  "version": "1.0",
+  "description": "1 in 10000 chance of getting jumpscared on any website.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["withered-foxy.gif", "withered-foxy-jumpscare.mp3"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
